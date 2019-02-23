@@ -29,6 +29,7 @@ public:
 		}
 		//printf("a\n");
 		file.close();
+		file_location = "D:/nus/Hackathon/Data/";
 		//printf("a\n");
 	}
 	void addQuestion(Data question) {
@@ -45,15 +46,18 @@ public:
 	}
 	int fromFile() {
 		ifstream file;
+		questions.clear();
 		file.open(file_location, ios::in);
 		string line;
 		while (getline(file,line))
 		{
-			Data temp;
-			temp.add_data(line);
-			questions.push_back(temp);
+			Data tempdata;
+			tempdata.add_data(line);
+			questions.push_back(tempdata);
 		}
+		cout << "No. of objects read: " << questions.size()<<endl;
 		file.close();
+		file_location = "D:/nus/Hackathon/Data/";
 		return 0;
 	}
 

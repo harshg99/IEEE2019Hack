@@ -73,7 +73,7 @@ public:
 		k.clear();
 		//char intStr[1];
 		//itoa(num_options,intStr,10);
-		k = k + to_string(num_options) + "|" + to_string(answer) + "|" + Question; +"|";
+		k = k + to_string(num_options) + "|" + to_string(answer) + "|" + Question +"|";
 		for (int j = 0; j < options.size(); j++) {
 			k = k + options[j] + "|";
 		}
