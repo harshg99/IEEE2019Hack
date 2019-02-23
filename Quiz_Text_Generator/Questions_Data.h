@@ -42,13 +42,14 @@ public:
 
 	}*/
 	
-	int add_data(string data_string) {
+	int add_data(string &data_string) {
 		vector<string> data_strings;
-		stringstream input(data_string);
+		istringstream input(data_string);
 		string parsed;
-		if (getline(input, parsed, '|'))
+		while(getline(input, parsed, '|'))
 		{
 			data_strings.push_back(parsed);
+			cout << parsed << endl;
 		}
 		num_options = stoi(data_strings[0]);
 		answer = stoi(data_strings[1]);

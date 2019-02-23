@@ -18,7 +18,7 @@ public:
 	}
 	void set_file(string file) {
 	    file_location =file_location+file;
-		cout << file_location;
+		//cout << file_location;
 	}
 	void toFile(){
 		ofstream file;
@@ -52,7 +52,9 @@ public:
 		while (getline(file,line))
 		{
 			Data tempdata;
+			//cout << line;
 			tempdata.add_data(line);
+			//cout << tempdata.to_String() << endl;
 			questions.push_back(tempdata);
 		}
 		cout << "No. of objects read: " << questions.size()<<endl;

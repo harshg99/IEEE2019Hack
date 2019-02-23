@@ -1,9 +1,8 @@
 ﻿  Quiz_Text_Generator.cpp
 d:\nus\hackathon\quiz_text_generator\quiz_text_generator\questions_data.h(29): warning C4018: '>': signed/unsigned mismatch
-d:\nus\hackathon\quiz_text_generator\quiz_text_generator\questions_data.h(56): warning C4018: '<': signed/unsigned mismatch
-d:\nus\hackathon\quiz_text_generator\quiz_text_generator\questions_data.h(76): warning C4552: '+': operator has no effect; expected operator with side-effect
-d:\nus\hackathon\quiz_text_generator\quiz_text_generator\questions_data.h(77): warning C4018: '<': signed/unsigned mismatch
+d:\nus\hackathon\quiz_text_generator\quiz_text_generator\questions_data.h(57): warning C4018: '<': signed/unsigned mismatch
+d:\nus\hackathon\quiz_text_generator\quiz_text_generator\questions_data.h(78): warning C4018: '<': signed/unsigned mismatch
 d:\nus\hackathon\quiz_text_generator\quiz_text_generator\applet_tools.h(27): warning C4018: '<': signed/unsigned mismatch
-d:\nus\hackathon\quiz_text_generator\quiz_text_generator\applet_tools.h(42): warning C4018: '<': signed/unsigned mismatch
+d:\nus\hackathon\quiz_text_generator\quiz_text_generator\applet_tools.h(43): warning C4018: '<': signed/unsigned mismatch
 d:\nus\hackathon\quiz_text_generator\quiz_text_generator\questions_data.h(32): warning C4715: 'Data::check': not all control paths return a value
   Quiz_Text_Generator.vcxproj -> D:\nus\Hackathon\Quiz_Text_Generator\Debug\Quiz_Text_Generator.exe
